@@ -26,6 +26,7 @@ RUN yum install -y \
     devtoolset-9-libstdc++-devel \
     devtoolset-9-libtsan-devel \
     devtoolset-9-libubsan-devel \
+    sclo-git212-git \
     && rm -rf /var/cache/yum/* \
     && yum clean all
 
